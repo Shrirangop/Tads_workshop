@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    color: black;
+    background-image: url("pexels-pixabay-207896.jpg");
+    background-size: cover; 
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+nav{
+background-color: transparent;
+    height: 90px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    gap: 70px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+li {
+    list-style: none;
+}
+a:hover{
+    text-decoration:underline ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#summer{
+    font-size: 20px;
+font-weight: 500;
+    color: rgb(171, 21, 21);
+}
+#hero h1{
+    font-size: 60px;
+    position: absolute;
+left: 80px;
+top: 120px;
+font-weight: 480;
+color: white;
+}
+#hero h1 span{
+    color:#ff3700;
+}
+.about{
+     border: solid rgb(26, 5, 5) 2px;
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    border-radius: 5px;
+    left: 570px;
+    top: 250px;
+    font-size: 18px;
+    color: white;
+    font-weight: 550;
+    padding-left: 6px;
+    background-color: rgba(209, 120, 5, 0.5);
+}
+ .about:hover{
+    background-color: rgb(19, 2, 2);
+#imgg{
+    color: white;
+}
+ }
+ #imgg{
+     position: absolute;
+     top: 10px;
+    right: 20px;
+    height: 60px;
+ }
+#img2{
+    height: 40px;
+    width: 70px;
+}
+ 
